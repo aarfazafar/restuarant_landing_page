@@ -102,6 +102,20 @@
   .navbar-logo{
     width:3rem;
   }
+  /* .navbar-login {
+    display: none;
+  } */
+}
+@media screen and (max-width: 300px) {
+  .app-navbar {
+    padding: 1rem;
+  }
+  .navbar-logo{
+    width:3rem;
+  }
+  .navbar-login {
+    display: none;
+  }
 }
 @media screen and (max-width: 1150px) {
   .navbar-links {
