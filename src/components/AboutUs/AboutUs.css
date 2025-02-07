@@ -1,0 +1,92 @@
+.app-about {
+  min-height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background: url('../../assets/bg.png');
+  background-position: center;
+  background-size: cover;
+  background-repeat: repeat;
+  background-attachment: fixed;
+  position: relative;
+}
+.about-overlay {
+  position: absolute;
+  inset: 1;
+}
+.about-overlay img {
+  z-index: 0;
+  opacity: 20%;
+  filter: brightness(1.5);
+}
+
+.about-content {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: var(--color-crimson);
+  z-index:1;
+  /* flex-direction: column; */
+}
+.about-content  h1 {
+  font-family: var(--font-base);
+  text-shadow: 2px 2px 5px black;
+}
+.about-content  p {
+  text-shadow: 2px 2px 5px grey;
+  margin-top: 3rem;
+  font-family: var(--font-p);
+  font-weight: 100;
+}
+.about-content img{
+    margin: 0.6rem 0rem;
+    width: 2rem;
+}
+.about-us {
+  text-align: right;
+}
+.history {
+  text-align: left;
+}
+.about-us, .history {
+  width: 28%;
+}
+
+.knife {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 10%;
+  margin-left:1rem;
+}
+.knife img {
+  width: 50%;
+  /* opacity: 100%; */
+}
+@media screen and (max-width: 1150px)  {
+  .knife {
+    width: 17%;
+  }
+}
+@media screen and (max-width: 650px) {
+  .about-content {
+    flex-direction: column;
+  }
+  .knife {
+    width: 50%;
+    margin: 2rem 0rem;
+  }
+  .about-us{
+    width: 80%;
+    position: relative;
+    right:-8px;
+    margin: 2rem 0rem;
+  }
+  .history{
+    width: 80%;
+    position: relative;
+    left:10px;
+    margin: 2rem 0rem;
+  }
+}
+

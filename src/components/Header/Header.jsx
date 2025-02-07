@@ -12,6 +12,7 @@ const Header = () => {
         </div>
         <h1 className = "headline">The Key to Sweet Bliss</h1>
         <p className='heading-p'>Lorem ipsum dolor sit amet consectetur adipisicing elit. Placeat, non repudiandae saepe voluptatibus, voluptatem enim ab labore mollitia doloremque architecto, voluptas pariatur! At, laborum dolorem ea tempore nihil aliquam</p>
+        <button className='custom__button'>Explore</button>
       </div>
       <div className="header-img">
         <img src={images.headImg} alt="" />

@@ -14,6 +14,7 @@
 }
 .header-info {
   width: 30vw;
+  text-shadow: 2px 2px 5px black;
 }
 .headline {
   text-transform: uppercase;
@@ -21,6 +22,7 @@
   font-family: var(--font-base);
   font-size: 4rem;
   letter-spacing: 0.04em ;
+  margin-top: 2rem;
 }
 .sub-heading{
   display: flex;
@@ -40,18 +42,25 @@
   font-weight: 100;
 }
 @media screen and (max-width: 1150px)  {
+  .app-header {
+    column-gap: 2rem;
+  }
   .header-info {
     width: 40vw;
   }
   .header-img{
-    width: 40vw;
+    width: 45vw;
+  }
+  .headline{
+    font-size: 2.5rem;
+    margin: 1rem 0rem; 
   }
 }
 
 @media screen and (max-width: 750px) {
   .app-header {
     flex-direction: column;
-    padding: 3rem 0rem;
+    padding: 2.5rem 0rem;
     /* justify-content: space-around; */
     /* row-gap: 4rem; */
   }
@@ -59,7 +68,7 @@
     width: 70vw;
   }
   .header-img{
-    width: 70vw;
+    width: 68vw;
   }
   .sub-heading {
     font-size: 21px;
@@ -70,16 +79,12 @@
 }
 
 @media screen and (max-width: 450px) {
-  .p__opensans {
-    font-size: 12px;
-  }
 
   .sub-heading {
     font-size: 19px;
   }
-
-  .headtext__cormorant {
-    font-size: 45px;
-    line-height: 70px;
+  .headline{
+    font-size: 2.5rem;
+    margin: 2rem 0rem; 
   }
 }

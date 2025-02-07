@@ -51,7 +51,7 @@
 }
 
 .custom__button {
-  background-color: var(--color-crimson);
+  background-color: var(--color-golden);
     color: var(--color-black);
     font-family: var(--font-base);
     font-weight: 700;
@@ -63,8 +63,13 @@
     border: none;
     outline: none;
     cursor: pointer;
+    margin: 2rem 0rem;
+    transition: 0.5s eases;
 }
-
+.custom__button:hover {
+  /* color: var(--color-crimson-red); */
+  background-color: var(--color-crimson);
+}
 .p__cormorant {
   font-family: var(--font-base);
   color: var(--color-white);
@@ -172,4 +177,32 @@
     font-size: 45px;
     line-height: 70px;
   }
+}
+
+
+
+
+/* For WebKit Browsers (Chrome, Edge, Safari) */
+::-webkit-scrollbar {
+  width: 8px; /* Adjust width as needed */
+}
+
+::-webkit-scrollbar-track {
+  background: #1a1a1a; /* Dark background */
+  border-radius: 10px;
+}
+
+::-webkit-scrollbar-thumb {
+  background: linear-gradient(180deg, #444, #888); /* Gradient thumb */
+  border-radius: 10px;
+}
+
+::-webkit-scrollbar-thumb:hover {
+  background: linear-gradient(180deg, #666, #aaa); /* Lighter on hover */
+}
+
+/* For Firefox */
+* {
+  scrollbar-width: thin;
+  scrollbar-color: #666 #1a1a1a; /* Thumb color | Track color */
 }
