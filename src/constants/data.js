@@ -4,26 +4,28 @@ const foodData = [
     "name": "Authentic Bombay Mawa Jalebi",
     "price": 120,
     "tags": ["sweet", "jalebi", "Bombay special"],
-    "image": "https://example.com/images/mawa_jalebi.jpg"
+    "image": "https://media.assettype.com/knocksense%2Fimport%2F24928317%2Forigin.jpg?w=1200&auto=format%2Ccompress&fit=max"
   },
+  // https://i.pinimg.com/736x/13/7e/20/137e204ddd138b462b25adc5f798bd06.jpg
   {
     "name": "Malpua Rabdi",
     "price": 150,
     "tags": ["sweet", "dessert", "rabdi", "malpua"],
-    "image": "https://example.com/images/malpua_rabdi.jpg"
-  },
-  {
-    "name": "Gulab Jamun Rabdi",
-    "price": 130,
-    "tags": ["sweet", "gulab jamun", "rabdi", "dessert"],
-    "image": "https://example.com/images/gulab_jamun_rabdi.jpg"
+    "image": "https://i.pinimg.com/736x/cd/ed/a2/cdeda25ec41f8528bfa3c6bd68d0d07f.jpg"
   },
   {
     "name": "Gajar Halwa",
     "price": 100,
     "tags": ["sweet", "halwa", "carrot", "dessert"],
-    "image": "https://example.com/images/gajar_halwa.jpg"
+    "image": "https://i.pinimg.com/736x/e4/e7/28/e4e72804c139864f64699664712f488a.jpg"
   },
+  {
+    "name": "Gulab Jamun Rabdi",
+    "price": 130,
+    "tags": ["sweet", "gulab jamun", "rabdi", "dessert"],
+    "image": "https://i.pinimg.com/736x/bc/6a/3d/bc6a3dd542422659acf4ddd4cf6b01cc.jpg"
+  },
+
   {
     "name": "Dudhi Halwa",
     "price": 110,
@@ -79,3 +81,4 @@ const foodData = [
     "image": "https://example.com/images/papri_chaat.jpg"
   }
 ]
+export default foodData;

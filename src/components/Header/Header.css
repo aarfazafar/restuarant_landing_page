@@ -8,6 +8,7 @@
 }
 .header-img {
   width: 25vw;
+  box-shadow:7px 9px 20px black;
 }
 .header-img img {
   width:100%;

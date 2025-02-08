@@ -1,0 +1,127 @@
+.m-container {
+  width: 100%;
+  min-height: 100%;
+  padding: 3.5rem 4rem;
+  position: relative; /* ✅ Ensure it respects child elements */
+  overflow-x: hidden;
+}
+.menu-card{
+  display: flex;
+  /* flex-direction: column;
+  align-items: center;
+  justify-content: center;*/
+  height: 28rem;
+  overflow: hidden;
+  background: #222;
+  border-radius: 10px; 
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+}
+.card {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  padding: 1rem;
+}
+.food-image {
+  width: 18rem; 
+  height: 13rem; 
+  overflow: hidden;
+  border-radius: 10px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background: black; 
+}
+.food-image img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover; 
+}
+.food-title {
+  font-family: var(--font-alt);
+  color: var(--color-crimson);
+  font-size: 1.2rem;
+  margin: 0.8rem 0rem;
+  text-align: center;
+}
+.food-des {
+  color: var(--color-crimson);
+  text-shadow: 2px 2px 5px grey;
+  font-family: var(--font-p);
+  font-weight: 100;
+  padding: 0 0.5rem;
+}
+.slick-slider {
+  height: 100%;
+  /* border: 1px solid red; */
+  /* box-sizing: border-box; */
+  overflow: hidden;
+}
+.slick-slide > div {
+  margin: 0 4rem;
+}
+.slick-track {
+  display: flex;
+  align-items: center;
+}
+.slick-prev{
+  left:2% !important;
+  z-index:1
+}
+.slick-next  {
+  right:2% !important;
+  z-index:1
+}
+
+@media screen and (max-width: 1150px)  {
+  .food-image {
+  width: 13rem; 
+  height: 10rem;
+  } 
+  .slick-slide > div {
+    margin: 0rem 2rem;
+  } 
+  .food-des{
+      margin: 0.8rem 0.2rem;
+  }
+  .m-container {
+    padding: 10rem 0rem;
+  }
+}
+@media screen and (max-width: 1024px)  {
+  .food-image {
+  width: 20rem; 
+  height: 15rem;
+  } 
+  .menu-card {
+    height: 35rem;
+  }
+}
+
+@media screen and (max-width: 600px) {
+  .food-title {
+    margin-top: 1.4rem;
+    font-size: 1.3rem; 
+  }
+  .food-des {
+    font-size: 1.3rem;
+    margin: 0.5rem 0.2rem;
+  }
+}
+
+@media screen and (max-width: 400px) {
+  .food-image {
+    width: 18rem; 
+    height: 14rem;
+    } 
+  .food-title {
+    margin-top: 1.4rem;
+    font-size: 1.2rem; 
+  }
+  .food-des {
+    font-size: 1.1rem;
+    margin: 0.5rem 0.2rem;
+  }
+}

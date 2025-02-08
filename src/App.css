@@ -65,6 +65,8 @@
     cursor: pointer;
     margin: 2rem 0rem;
     transition: 0.5s eases;
+    overflow: hidden;
+
 }
 .custom__button:hover {
   /* color: var(--color-crimson-red); */

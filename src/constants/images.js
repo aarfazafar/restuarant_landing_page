@@ -8,6 +8,9 @@ import chef from '../assets/chef.png'
 import quote from '../assets/quote.png'
 import rArrow from '../assets/arrow-right.png'
 import lArrow from '../assets/arrow-left.png'
+import menubg from '../assets/menubg.png'
+
+
 export default {
   logo, 
   nobglogo,
