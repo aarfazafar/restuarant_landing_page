@@ -16,6 +16,7 @@
 .header-info {
   width: 30vw;
   text-shadow: 2px 2px 5px black;
+  overflow-y: hidden;
 }
 .headline {
   text-transform: uppercase;

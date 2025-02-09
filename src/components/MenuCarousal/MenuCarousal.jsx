@@ -7,10 +7,10 @@ const MenuCarousal = ({ data }) => {
   const settings = {
     dots: true,
     infinite: true,
-    speed: 1000,
+    speed: 800,
     slidesToShow: 3,
     slidesToScroll: 1,
-    // autoplay: true,
+    autoplay: true,
     adaptiveHeight: true,
     arrows: true,
     accessibility: false,
