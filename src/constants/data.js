@@ -30,55 +30,55 @@ const foodData = [
     "name": "Dudhi Halwa",
     "price": 110,
     "tags": ["sweet", "halwa", "bottle gourd", "dessert"],
-    "image": "https://example.com/images/dudhi_halwa.jpg"
+    "image": "https://i.pinimg.com/736x/8a/ed/26/8aed26057f3a6989fb7d3ea2d151e968.jpg"
   },
   {
     "name": "Kaju Katli",
     "price": 180,
     "tags": ["sweet", "cashew", "katli", "dessert"],
-    "image": "https://example.com/images/kaju_katli.jpg"
+    "image": "https://i.pinimg.com/236x/94/22/29/9422290c442e8323245746b30eaf1564.jpg"
   },
   {
     "name": "Motichoor Laddu",
     "price": 140,
     "tags": ["sweet", "laddu", "motichoor", "dessert"],
-    "image": "https://example.com/images/motichoor_laddu.jpg"
+    "image": "https://i.pinimg.com/736x/b3/5c/f8/b35cf874fb4996bb970f86014e8c2625.jpg"
   },
   {
     "name": "Punjabi Samosa",
     "price": 50,
     "tags": ["snack", "samosa", "Punjabi special", "vegetarian"],
-    "image": "https://example.com/images/punjabi_samosa.jpg"
+    "image": "https://i.pinimg.com/736x/c5/2f/0c/c52f0c83bc095d1b6814342a4122fe98.jpg"
   },
   {
     "name": "Bombay Special Vada Pao",
     "price": 60,
     "tags": ["street food", "vada pao", "Bombay special", "vegetarian"],
-    "image": "https://example.com/images/vada_pao.jpg"
+    "image": "https://i.pinimg.com/736x/df/66/b6/df66b65850687bcfce9471c2b66375b9.jpg"
   },
   {
     "name": "JJ Special Haleem",
     "price": 200,
     "tags": ["non-vegetarian", "haleem", "JJ special", "meat"],
-    "image": "https://example.com/images/haleem.jpg"
+    "image": "https://i.pinimg.com/736x/f6/31/91/f63191fa1c5c00aec3b9825559f842e2.jpg"
   },
   {
     "name": "Dahi Puri",
     "price": 80,
     "tags": ["chaat", "street food", "vegetarian", "puri"],
-    "image": "https://example.com/images/dahi_puri.jpg"
+    "image": "https://i.pinimg.com/736x/69/6d/01/696d01e1564a8a489ff21c232a55adbc.jpg"
   },
   {
     "name": "Sew Puri",
     "price": 70,
     "tags": ["chaat", "street food", "vegetarian", "puri"],
-    "image": "https://example.com/images/sew_puri.jpg"
+    "image": "https://i.pinimg.com/736x/c4/8d/e0/c48de0cc613c41d18c30872875722ccc.jpg"
   },
   {
     "name": "Papri Chaat",
     "price": 90,
     "tags": ["chaat", "street food", "vegetarian", "crispy"],
-    "image": "https://example.com/images/papri_chaat.jpg"
+    "image": "https://i.pinimg.com/236x/f0/dc/32/f0dc328ace44cb0bf91b1a65154ffc1d.jpg"
   }
 ]
 export default foodData;

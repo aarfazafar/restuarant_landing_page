@@ -34,7 +34,7 @@ const Gallery1 = () => {
 
   return (
     <div>
-      <h1 className="gallery-heading">Food Gallery</h1>
+      <h1 className="gallery-heading">Photo Gallery</h1>
       <div className="gallery-wrapper" ref={targetRef}>
         <div className={`gallery-container ${isFixed ? "fixed" : ""}`}>
           <motion.div

@@ -7,7 +7,6 @@ import Header from './components/Header/Header'
 import AboutUs from './components/AboutUs/AboutUs'
 import Chef from './components/Chef/Chef'
 import Menu from './components/Menu/Menu'
-import Gallery from './components/PhotoGallery/Gallery'
 import Footer from './components/Footer/Footer'
 import Gallery1 from './components/Gallery/Gallery1'
 function App() {
@@ -19,7 +18,6 @@ function App() {
       <Menu/>
       <AboutUs/>
       <Chef/>
-      {/* <Gallery/> */}
       <Gallery1/>
       <Footer/>
 

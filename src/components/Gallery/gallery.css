@@ -42,8 +42,23 @@
   width: clamp(5rem, 30vw, 30rem);
   object-fit: cover;
 }
-
+.gallery-heading {
+  font-family: var(--font-base);
+  font-size: 3rem;
+  text-align: center;
+  background-color: black;
+  color: var(--color-crimson-red);
+}
+@media screen and (max-width: 1150px) {
+   img.image {
+    height: auto;
+    width: clamp(20rem, 80vw, 25rem);
+  }
+}
 @media screen and (max-width: 650px) {
+  .gallery-wrapper {
+    height: 1000vh; 
+  }
  .images {
   gap: 4vw;
  }
@@ -55,11 +70,7 @@
   height: auto;
   width: clamp(10rem, 80vw, 60rem);
 }
-}
 .gallery-heading {
-  font-family: var(--font-base);
-  font-size: 3rem;
-  text-align: center;
-  background-color: black;
-  color: var(--color-crimson-red);
+  padding: 2rem 0rem;
+}
 }
