@@ -46,6 +46,7 @@ const Gallery1 = () => {
                 <ImageContainer
                   imageSource={d.url}
                   description={d.description}
+                  key={d.url}
                 />
               </div>
             ))}

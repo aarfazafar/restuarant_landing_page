@@ -71,6 +71,6 @@
   width: clamp(10rem, 80vw, 60rem);
 }
 .gallery-heading {
-  padding: 2rem 0rem;
+  padding: 2rem;
 }
 }

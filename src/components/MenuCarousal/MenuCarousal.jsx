@@ -42,9 +42,9 @@ const MenuCarousal = ({ data }) => {
   return (
     <div className="m-container">
       <Slider {...settings}>
-        {data.map((d) => {
+        {data.map((d, index) => {
           return (
-            <div className="menu-card">
+            <div className="menu-card" key = {index}>
               <div className="card">
                 <div className="food-image">
                   <img src={d.image} alt="" />

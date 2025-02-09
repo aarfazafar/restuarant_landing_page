@@ -9,6 +9,7 @@ import Chef from './components/Chef/Chef'
 import Menu from './components/Menu/Menu'
 import Footer from './components/Footer/Footer'
 import Gallery1 from './components/Gallery/Gallery1'
+import FindUs from './components/FindUs/FindUs'
 function App() {
 
   return (
@@ -19,8 +20,8 @@ function App() {
       <AboutUs/>
       <Chef/>
       <Gallery1/>
+      <FindUs/>
       <Footer/>
-
     </>
   )
 }
